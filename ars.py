@@ -2,6 +2,9 @@
 
 import numpy as np
 import os
+import gym
+from gym import wrappers
+import pybullet_envs
 
 # Setting the hyperparameters
 class HyperParameters():
